@@ -1,0 +1,170 @@
+/*---------------- GENERAL STYLES ----------------*/ 
+
+@charset "UTF-8";
+
+html {
+    height: 100%;
+}
+
+body {
+	font-family: "Calibri", sans-serif;
+	background-color: #f6f6f6;
+	color: #3B4245;
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	/* background-color: #1e6af2; */
+}
+
+h1 {
+	font-size: 42px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p, text {
+	font-size: 14px;
+}
+
+a {
+	color: #d81d28;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/*---------------- CONTAINER ----------------*/ 
+
+.container-vertical {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-horizontal {
+	display: flex;
+	flex-direction: row;
+}
+
+.text-header {
+	width: 300px;
+	text-align: end;
+	margin-left: 100px;
+	margin-right: 20px;
+}
+
+.text-description {
+	width: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*---------------- PARTIES ----------------*/ 
+
+.democrat {
+	fill: #009bd8;
+}
+
+.republican {
+	fill: #d81d28;
+}
+
+.democrat-align {
+	text-anchor: start;
+}
+
+.republican-align {
+	text-anchor: end;
+}
+
+/*---------------- YEARLY RESULTS ----------------*/ 
+
+.header {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+	text-anchor: middle;
+	alignment-baseline: middle;
+}
+
+.textbox-fill {
+	fill: #f6f6f6;
+}
+
+.finish-line {
+    stroke-dasharray: 5;
+    stroke: #3B4245;
+}
+
+.electoral-votes-text {
+	font-size: 12px;
+	fill: #3B4245;
+}
+
+.electoral-states-line {
+    stroke-width: 1px;
+    fill: none;
+    opacity: 20%;
+    stroke: #3B4245;
+}
+
+.electoral-states-circle {
+	border-color: #fff;
+	opacity: 40%;
+}
+
+.electoral-states-inactive {
+	fill:  #3B4245;
+	opacity: 10% ! important;
+}
+
+.electoral-states-active {
+	opacity: 80% ! important;
+}
+
+.voter-participation {
+	fill:  #3B4245;
+	opacity: 40%;
+}
+
+/*---------------- GRID ----------------*/ 
+
+.swing-state {
+	fill: #009bd8;
+}
+
+.electoral-states-line-grid {
+    stroke-width: 1px;
+    fill: none;
+    opacity: 20%;
+    stroke: #3B4245;
+}
+
+.electoral-states-circle-grid {
+	border-color: #fff;
+	opacity: 40%;
+}
+
+/*---------------- SCENARIO ----------------*/ 
+
+.axis text {
+	fill: #3B4245;
+}
+
+.axis path {
+	stroke: #3B4245;
+}
+
+.axis line {
+	stroke: #3B4245;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>U.S. Elections</title>
+	<!-- CSS -->
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container-vertical">
+
+		<div class="container-horizontal">
+			<div class="text-header">
+				<h1>U.S. Elections</h1>
+				<h3>Elections from 1976 to 2016 based on data from <a href="https://electionlab.mit.edu/data">MIT Election Lab</a></h3>
+				<h3>Drawn by Sarina Chen</h3>
+			</div>
+			<div class="text-description">
+				<br>
+				<p>The U.S. election determines the next president and vice president for the upcoming term every 4 years. Since 1789, winners are selected by the Electoral College, set forth by the 12th Amendment in the U.S. Consitution. The Electoral College grants states a number of electors that is equal to the state's number of Senators and number of seats in the House. Most often, the indirect electoral college achieves the same result as the direct popular vote, but its purpose is to ensure that states with a smaller population have a say.</p>
+				<p>During election season, the most important campaigns happen in the <strong>swing states</strong>. While most other states consistently win the majority-vote for 1 party, these swing states tend to be 50-50 between the democrat and republican parties and could lean either way, making or breaking the election (whichever way you see it!). There's no exact definition for swing states, but the percentage of total voters in that state tend to have a democrat and republican portion within 8% variance or the state voted for each party at least once in the past 3 years.</p>
+				<p>Starting from 1976, Jimmy Carter was an unpopular democrat president and did not win a second term. He lost to the new president Ronald Reagan in 1980 because a large percent of Democrats voted for Reagan and then George H. W. Bush in 1988. The Democrats made their platform more relevant and won back the Democrats' votes with Bill Clinton in 1992. Bill Clinton, George W. Bush, and Barrack Obama all won consecutive terms starting from 1992. Donald Trump won the 2016 election but lost to Joe Biden in 2020.</p>
+			</div>
+		</div>
+
+		<div class="container-horizontal">
+			<div class="text-header">
+				<h2>Who won each term?</h2>
+				<p>Hover over the STATE VOTES to see how far left or right each state was. The size of the circle represents the state's total number of electoral votes.</p>
+			</div>
+			<div id="yearly-results-table"></div>
+		</div>
+
+		<div class="container-horizontal">
+			<div class="text-header">
+				<h2>How did each state vote?</h2>
+				<p>Swing States for the 2020 election are colored in blue. This currently does not account for the split in a electoral votes for Nebraska and Maine, which are the only 2 states not using the winner-take-all approach for determining their electoral votes.</p>
+			</div>
+			<div id="yearly-results-grid"></div>
+		</div>
+
+		<div class="container-horizontal">
+			<div class="text-header">
+				<h2>How closely does the Electoral College represent the popular vote?</h2>
+				<p>Electoral votes are determined based on the U.S. census every 10 years, but only voters will influence the outcome.</p>
+				<p>Smaller circles in this graph have a smaller variance between parties, which make them candidates for swing states.</p>
+			</div>
+			<div id="electoral-votes-scenarios"></div>
+		</div>
+		
+	</div>	
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+ 
+ 
