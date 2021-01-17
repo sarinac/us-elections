@@ -45,6 +45,9 @@ a {
 /*---------------- CONTAINER ----------------*/ 
 
 .container-vertical {
+	width: 1500px;
+	margin: 0 auto;
+	padding: 40px 0px;
 	display: flex;
 	flex-direction: column;
 }
@@ -52,17 +55,17 @@ a {
 .container-horizontal {
 	display: flex;
 	flex-direction: row;
+	padding-top: 20px;
 }
 
 .text-header {
 	width: 300px;
 	text-align: end;
-	margin-left: 100px;
 	margin-right: 20px;
 }
 
 .text-description {
-	width: 1200px;
+	width: 1180px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
