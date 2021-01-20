@@ -1,5 +1,5 @@
 # us-elections
- 🇺🇸📝🗳
+ 🇺🇸 📝 🗳
 
 [See write-up here](https://ifcolorful.com/us-elections/)!
 
